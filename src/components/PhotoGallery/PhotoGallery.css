@@ -1,0 +1,16 @@
+.PhotoGallery-Wrapper h2 {
+    text-align: center;
+}
+
+.PhotoGallery-List {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.PhotoGallery-Item img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}

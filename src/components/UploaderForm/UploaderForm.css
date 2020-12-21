@@ -1,0 +1,24 @@
+:root {
+    --error-color: #ff0000;
+    --form-border: #d19755;
+}
+
+.Uploader-Wrapper {
+    margin: 20px auto;
+}
+
+.Uploader-Wrapper form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 0 auto;
+    gap: 20px;
+    border: 1px solid var(--form-border);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.Uploader-Error {
+    color: var(--error-color);
+    text-align: center;
+}
